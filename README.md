@@ -16,15 +16,15 @@ df.columns = [
     "sepal length", "sepal width", "petal length", "petal width", "label"
 ]
 
-data = np.array(df.iloc[:100, [0, 1, -1]])
-X, y = data[:,:-1], data[:,-1]
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3)
-
 plt.scatter(df[:50]["sepal length"], df[:50]["sepal width"], label="0")
 plt.scatter(df[50:100]["sepal length"], df[50:100]["sepal width"], label="1")
 plt.xlabel("sepal length")
 plt.ylabel("sepal width")
 plt.legend()
+
+data = np.array(df.iloc[:100, [0, 1, -1]])
+X, y = data[:,:-1], data[:,-1]
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3)
 ```
 
 ## [Machine Learning](https://github.com/Euler0525/AI-Learning/tree/master/Machine_Learning)
