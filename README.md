@@ -1,5 +1,32 @@
 # [AI Learning](https://github.com/Euler0525/AI-Learning)
 
+## Dataset
+
+
+### [Iris](https://archive.ics.uci.edu/dataset/53/iris)
+
+```python
+from sklearn.datasets import load_iris
+from sklearn.model_selection import train_test_split
+
+iris = load_iris()
+df = pd.DataFrame(iris.data, columns=iris.feature_names)
+df["label"] = iris.target
+df.columns = [
+    "sepal length", "sepal width", "petal length", "petal width", "label"
+]
+
+plt.scatter(df[:50]["sepal length"], df[:50]["sepal width"], label="0")
+plt.scatter(df[50:100]["sepal length"], df[50:100]["sepal width"], label="1")
+plt.xlabel("sepal length")
+plt.ylabel("sepal width")
+plt.legend()
+
+data = np.array(df.iloc[:100, [0, 1, -1]])
+X, y = data[:,:-1], data[:,-1]
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3)
+```
+
 ## [Machine Learning](https://github.com/Euler0525/AI-Learning/tree/master/Machine_Learning)
 
 > 吴恩达机器学习
