@@ -49,7 +49,21 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3)
 
 > 统计学习方法（第2版）
 
+### [01-Introduction](https://github.com/Euler0525/AI-learning/blob/master/Statistical_Learning_Methods/01-Introduction.ipynb)
 
+### [02-Perceptron](https://github.com/Euler0525/AI-learning/blob/master/Statistical_Learning_Methods/02-Perceptron.ipynb)
+
+### [03-KNN](https://github.com/Euler0525/AI-learning/blob/master/Statistical_Learning_Methods/03-KNearestNeighbors.ipynb)
+
+### [04-Naive Bayes](https://github.com/Euler0525/AI-learning/blob/master/Statistical_Learning_Methods/04-NaiveBayes.ipynb)
+
+### [05-Decision Tree](https://github.com/Euler0525/AI-learning/blob/master/Statistical_Learning_Methods/05-DecisionTree.ipynb)
+
+### [06-Logistic Regression](https://github.com/Euler0525/AI-learning/blob/master/Statistical_Learning_Methods/06-LogisticRegression.ipynb)
+
+### [07-SVM](https://github.com/Euler0525/AI-learning/blob/master/Statistical_Learning_Methods/07-SVM.ipynb)
+
+### [08-Boost](https://github.com/Euler0525/AI-learning/blob/master/Statistical_Learning_Methods/08-Boost.ipynb)
 
 ## Reference
 
