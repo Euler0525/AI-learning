@@ -65,6 +65,10 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3)
 
 ### [08-Boost](https://github.com/Euler0525/AI-learning/blob/master/Statistical_Learning_Methods/08-Boost.ipynb)
 
+## [d2l](https://github.com/Euler0525/AI-learning/tree/master/d2l)
+
+> 动手学深度学习（第二版）
+
 ## Reference
 
 ### Machine Learning
@@ -80,3 +84,7 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3)
 [lihang-code](https://github.com/fengdu78/lihang-code)
 
 [lihang_book_algorithm](https://github.com/WenDesi/lihang_book_algorithm)
+
+### d2l
+
+[动手学深度学习（第二版）](zh.d2l.ai)
