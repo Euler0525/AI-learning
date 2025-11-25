@@ -45,7 +45,7 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3)
 
 ### [exp7-K-means And PCA](https://github.com/Euler0525/AI-Learning/tree/master/Machine_Learning/exp7-K-means_And_PCA/)
 
-## Statistical Learning Methods
+## [Statistical Learning Methods](<https://github.com/Euler0525/AI-learning/tree/master/Statistical_Learning_Methods>)
 
 > 统计学习方法（第2版）
 
